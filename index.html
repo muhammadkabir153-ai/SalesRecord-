@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <title>My PWA App</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#007ACC">
+</head>
+<body>
+  <header>
+    <h1>My PWA App</h1>
+    <p>Installable, offline-ready, with notifications</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Notifications</h2>
+      <button id="requestPerm">Request Permission</button>
+      <button id="testNotify">Show Test Notification</button>
+      <p id="permStatus"></p>
+    </section>
+
+    <section>
+      <h2>PWA Install</h2>
+      <button id="showInstall">Show Install Prompt</button>
+      <p id="installHint"></p>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
